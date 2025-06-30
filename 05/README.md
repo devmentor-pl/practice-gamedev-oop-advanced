@@ -4,7 +4,13 @@
 
 # `#05` GameDev: Programowanie Obiektowe Część II
 
-## 
+## Gra RPG - Część V
+To ćwiczenie jest kontynuacją ćwiczenia `Gra RPG - Część IV`. Przekopiuj jego cały kod do tego projektu, by móc go rozbudowywać na potrzeby tego ćwiczenia:
+1. Zaimplementuj interfejs konsolowy kreatora postaci, który umożliwia wybór klasy oraz cech postaci;
+2. Zaimplementuj interfejs konsolowy przeglądania inwentarza oraz wybierania przedmiotów do wyekwipowania lub użycia;
+3. Zaimplementuj interfejs konsolowy walki - powinna być możliwość atakowania lub użycia eliksiru oraz wyświetlanie aktualnego stanu postaci gracza oraz przeciwnika;
+4. Zaimplementuj interfejs konsolowy handlu;
+5. Zaimplementuj prostą sekwencję wydarzeń (tworzenie postaci -> handel -> walka -> handel -> walka);
 
 
 &nbsp;

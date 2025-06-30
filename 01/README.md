@@ -4,7 +4,16 @@
 
 # `#01` GameDev: Programowanie Obiektowe Część II
 
-## 
+## Gra RPG - Część I
+Zaimplementuj prosty kreator postaci do gry RPG (np. jak w Baldur's Gate 3). Funkcjonalności:
+1. Abstrakcyjna klasa `Character`
+   - Powinna zawierać statystyki postaci, takie jak punkty zdrowia, siły i magii, oraz możliwość dodawania kolejnych;
+   - Powinna zawierać aktualny stan postaci, takie jak aktualna ilość punktów zdrowia i magii;
+   - Powinna zawierać abstrakcyjną metodę `UseSpecialAbility()`, która docelowo ma wyświetlić komunikat o wykonywanej czynności i odjąć punkty siły lub magii za jej użycie;
+2. Zaimplementuj kilka klas postaci, np. rycerz, łucznik, mag; każda z nich powinna mieć unikalną implementację metody `UseSpecialAbility()`;
+3. Cechy postaci i `CharacterBuilder`
+   - Do klasy `Character` dodaj co najmniej pięć stałych cech danej postaci - np. wzrost, rasa, płeć;
+   - Korzystając ze wzorca projektowego Builder, zaimplementuj klasę `CharacterBuilder`, która umożliwia wygodne nadawanie tych cech nowo tworzonej postaci;
 
 
 
